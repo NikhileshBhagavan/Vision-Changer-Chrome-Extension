@@ -6,7 +6,7 @@
         .switch {
             position: relative;
             display: inline-block;
-            width: 60px;
+            width: 64px;
             height: 34px;
         }
         /* Hide default HTML checkbox */
@@ -51,9 +51,9 @@
         }
         
         input:checked+.slider:before {
-            -webkit-transform: translateX(26px);
-            -ms-transform: translateX(26px);
-            transform: translateX(26px);
+            -webkit-transform: translateX(30px);
+            -ms-transform: translateX(30px);
+            transform: translateX(30px);
         }
         /* Rounded sliders */
         
@@ -69,18 +69,30 @@
 <script src="popup.js"></script>
 
 <body>
+
+    <h4 style="color:blue;display:inline;">T</h4>
+    <h4 style="color:red;display:inline;">O</h4>
+    <h4 style="color:rgb(13, 226, 191);display:inline;">G</h4>
+    <h4 style="color:rgb(0, 162, 255);display:inline;">G</h4>
+    <h4 style="color:rgb(214, 20, 20);display:inline;">L</h4>
+    <h4 style="color:rgb(47, 0, 255);display:inline;">E</h4>
+    <br><br>
     <center>
-        <h1 style="color:red;">T</h1>
-        <h1 style="color:red;">O</h1>
-        <h1 style="color:red;">G</h1>
         <label class="switch">
         <input type="checkbox" id="button1">
         <span class="slider round"></span>
       </label>
-        <h1 style="color:red;">G</h1>
-        <h1 style="color:red;">L</h1>
-        <h1 style="color:red;">E</h1>
+
     </center>
+    <br><br>
+
+    <h4 style="color:rgb(47, 0, 255);display:inline;">T</h4>
+    <h4 style="color:rgb(214, 20, 20);display:inline;">O</h4>
+    <h4 style="color:rgb(0, 162, 255);display:inline;">G</h4>
+    <h4 style="color:rgb(13, 226, 191);display:inline;">G</h4>
+    <h4 style="color:red;display:inline;">L</h4>
+    <h4 style="color:blue;display:inline;">E</h4>
+
 
 </body>
 
